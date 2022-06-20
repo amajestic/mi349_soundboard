@@ -1,0 +1,41 @@
+body {
+    background: #333;
+    color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 36px;
+}
+
+.soundboard {
+    padding: 10px;
+}
+
+/* got box-shadow code from https://www.w3schools.com/css/css3_buttons.asp */
+button {
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: 24px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#b1 {
+    background: lightseagreen;
+}
+
+#b2 {
+    background: lightskyblue;
+}
+
+#b3 {
+    background: lightsalmon;
+}
+
